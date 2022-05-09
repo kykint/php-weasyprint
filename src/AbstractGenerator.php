@@ -20,14 +20,14 @@ use Symfony\Component\Process\Process;
 abstract class AbstractGenerator implements GeneratorInterface, LoggerAwareInterface
 {
     public const DEFAULT_TIMEOUT = 10;
-    public array $temporaryFiles = [];
-    protected ?string $temporaryFolder = null;
-    private LoggerInterface $logger;
-    private string $defaultExtension;
-    private ?array $env;
-    private ?int $timeout = null;
-    private array $options = [];
-    private ?string $binary = null;
+    public $temporaryFiles = [];
+    protected $temporaryFolder = null;
+    private $logger;
+    private $defaultExtension;
+    private $env;
+    private $timeout = null;
+    private $options = [];
+    private $binary = null;
 
     public function __construct(string $binary = null, array $options = [], array $env = null)
     {

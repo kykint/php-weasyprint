@@ -1,4 +1,7 @@
 # PhpWeasyPrint
+This is a fork of [WeasyPrint](https://weasyprint.org/) with support PHP 7.2 (Backport).
+
+# PhpWeasyPrint
 
 PhpWeasyPrint is a PHP library allowing PDF generation from an URL or an HTML page.
 It's a wrapper for [WeasyPrint](https://weasyprint.org/), a smart solution helping web developers to create PDF documents, available everywhere Python runs.
@@ -11,7 +14,7 @@ See "[Differences with Snappy](#differences-with-snappy)" section to see how the
 ## Installation using [Composer](http://getcomposer.org/)
 
 ```bash
-$ composer require pontedilana/php-weasyprint
+$ composer require kykint/php-weasyprint
 ```
 
 ## Usage

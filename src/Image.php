@@ -11,7 +11,7 @@ use Pontedilana\PhpWeasyPrint\Exception\UnsupportedWeasyPrintVersionException;
  */
 class Image extends AbstractGenerator
 {
-    private Version $binaryVersion;
+    private $binaryVersion;
 
     /**
      * {@inheritdoc}

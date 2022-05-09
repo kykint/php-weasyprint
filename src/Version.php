@@ -7,7 +7,7 @@ use Symfony\Component\Process\Process;
 
 class Version
 {
-    private ?string $binary;
+    private $binary;
 
     public function __construct(?string $binary = '/usr/local/bin/weasyprint')
     {

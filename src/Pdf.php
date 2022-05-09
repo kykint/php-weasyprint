@@ -9,7 +9,7 @@ namespace Pontedilana\PhpWeasyPrint;
  */
 class Pdf extends AbstractGenerator
 {
-    protected array $optionsWithContentCheck = [];
+    protected $optionsWithContentCheck = [];
 
     /**
      * {@inheritdoc}

@@ -1,5 +1,5 @@
 {
-    "name": "pontedilana/php-weasyprint",
+    "name": "kykint/php-weasyprint",
     "description": "PHP library allowing PDF generation from an url or a html page. Wrapper for Kozea/WeasyPrint.",
     "license": "MIT",
     "type": "library",
@@ -15,9 +15,9 @@
         }
     ],
     "require": {
-        "php": "7.4.* || 8.0.* || 8.1.*",
-        "psr/log": "^1.1 || ^2.0 || ^3.0",
-        "symfony/process": "^4.4 || ^5.4 || ^6.0"
+        "php": "^7.2.0",
+        "psr/log": "^1.1",
+        "symfony/process": "^4.4"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.4",
